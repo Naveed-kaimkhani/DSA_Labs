@@ -17,7 +17,7 @@ public class ArrayStack implements Stack{
     ArrayStack(int size){
         this.size=size;
         a=new Object[size];
-        top=1;
+        top=-1;
     }
 
     public Boolean isEmpty(){
